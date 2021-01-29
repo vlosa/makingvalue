@@ -1,0 +1,190 @@
+body {
+    font-family: 'Ubuntu';
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15% 1%;
+}
+
+h1 {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    line-height: 1.5;
+    padding-top: 10%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 0 1rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 1.5rem;
+    color: white;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    color: white;
+}
+
+.img-brand {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+.download-button {
+margin: 5% 3% 5% 0;
+}
+
+.pmm_img {
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+    position: relative;
+    right: -20%;
+    top: 10%;
+}
+
+/* Features */
+
+#features { 
+    padding: 4% 30%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+} 
+
+h2 {
+    font-family: "Oswald";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 { 
+    font-family: "Oswald";
+    font-size: 1.5rem;
+}
+
+p {
+    color: gray;
+
+}
+
+/* Icons - Features */
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+/*-- Testimonials --> */
+
+#testimonials {
+padding: 2% 15% 6%;
+text-align: center;
+background-color: #ff4c68;
+color: #fff;
+
+}
+
+.testimonial_img {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press_img {
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+.pmm_img2
+{  width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+div.carousel-inner {
+    height: 420px !important;
+}  
+
+div.feature-box {
+    height: 300px !important;
+}
+
+/*-- Pricing --> */
+#pricing {
+padding: 2% 15% 6%;    
+text-align: center;
+}
+
+.pricing-column {
+padding: 2.5% 2%;
+}
+
+
+/*-- CONTACT FORM --> */
+#contact-form {
+    padding: 2% 15% 6%;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+/*-- CTA --> */
+#cta {    
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/*-- FOOTER --> */
+#footer {
+    padding: 5% 15% 4%;
+    text-align: center;
+}
+
+@media (max-width: 1028px){
+
+    #title {
+        text-align:center;
+    }
+.pmm_img {
+    position: static;
+}
+}
+
